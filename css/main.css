@@ -1,0 +1,63 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: sans-serif;
+  margin: .3em;
+  margin-top: auto;
+  margin-bottom: .3em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header {
+  background-color: #ffe500;
+}
+
+h1 {
+  font-family: "Sigmar One", sans-serif;
+  line-height: 1.5;
+  text-align: center;
+  color: #b20953;
+  margin: 0;
+  font-size: 3rem;
+}
+
+.nav {
+  text-decoration: none;
+  margin: .3em;
+  list-style-type: none;
+  text-align: center;
+}
+
+.nav a {
+  background-color: #b2a212;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: .3em;
+  max-width: 20em;
+  padding: .75em;
+  border-radius: 3px;
+  font-size: 1.125rem;
+}
+
+.nav a:hover {
+  background-color: #cc1465;
+  text-decoration: none;
+  color: #fff;
+  max-width: 20em;
+  padding: .75em;
+}
+
+.nav .current {
+  background-color: #cc1465;
+  text-decoration: none;
+  color: #fff;
+}
