@@ -1,6 +1,7 @@
 html {
   box-sizing: border-box;
   line-height: 1.5;
+  font-family: Georgia, serif;
 }
 
 *, *::before, *::after {
@@ -8,16 +9,12 @@ html {
 }
 
 body {
-  font-family: sans-serif;
-  margin: 0 auto;
-  margin-top: auto;
-  margin-bottom: .3em;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0;
 }
 
 header {
   background-color: #ffe500;
+  padding: 0 0 .4em;
 }
 
 h1 {
@@ -26,6 +23,11 @@ h1 {
   color: #b20953;
   margin: 0;
   font-size: 3rem;
+  padding-bottom: 10px;
+}
+
+main {
+  padding: 0 10px;
 }
 
 .nav {
@@ -33,6 +35,7 @@ h1 {
   margin: .3em;
   list-style-type: none;
   text-align: center;
+  padding: 0;
 }
 
 .nav li {
@@ -45,9 +48,8 @@ h1 {
   text-align: center;
   text-decoration: none;
   max-width: 20em;
-  padding: .75em;
+  padding: .2em .5em .3em;
   border-radius: 4px;
-  font-size: 1.125rem;
 }
 
 .nav a:hover {
@@ -55,7 +57,7 @@ h1 {
   text-decoration: none;
   color: #fff;
   max-width: 20em;
-  padding: .75em;
+  padding: .2em .5em .3em;
 }
 
 .nav .current {
@@ -75,19 +77,17 @@ img {
   width: 100%;
   border: 3rem;
   display: block;
-  margin: 0 auto;
+  margin: .3em;
 }
 
 p {
   color: #2f2d13;
-  font-size: 1.125rem;
-  font-family: Georgia, serif;
   margin-left: .3em;
+  font-size: 1rem;
 }
 
 footer {
-  font-size: .75rem;
   background-color: #ffe500;
   text-align: center;
-  font-family: Georgia, serif;
+  padding: 10px;
 }
